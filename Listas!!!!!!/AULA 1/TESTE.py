@@ -4,7 +4,7 @@ time = input("time:")
 
 print ("o", nome, "torce para o time", time)
 
- 
+
 
 
 A, B, C = input("escreva o valor de A, B e C:").split()
@@ -29,7 +29,7 @@ x2 = (-B - (delta ** 0.5))/(2 * A)
 
 print("x1 é =", x1)
 print("x2 é =", x2)
- """
+"""
 
 
 
@@ -61,7 +61,7 @@ elif raio_alvo != raio_tiro:
 else:
   print("o tiro teve uma colisao")
   print("a distancia do alvo ao tiro foi: ", distancia)
-   """
+"""
 
   
 
@@ -70,3 +70,98 @@ if distancia <= (raio_alvo + raio_tiro):
   print("o tiro teve a colisao")
 else:
   print("o tiro nao teve a colisao pois o") """
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+import math
+
+
+AOC = float(input("escreva o valor do angulo: "))
+AOC = math.radians(AOC)
+t = float(input("digite o tamanho do canhão: "))
+
+
+h, w = input("digite o valor da altura e da largura do tanque: ") .split()
+h = float(h)
+w = float(w)
+
+
+ty, tx = input("digite o valor do canhão na posição ty e tx: ") .split()
+ty = float(ty)
+tx = float(tx)
+
+
+by = ty
+
+bx = (w/2) + tx
+
+cy = by - (t * math.cos(AOC))
+cx = bx + (t * math.sin(AOC))
+
+
+
+print("o valor do angulo é: ", AOC,)
+
+print("o valor da altura do tanque é", h, "e o valor de largura do tanque é", w)
+
+print("o valor de ty é", ty, "e o valor de tx é", tx)
+
+print("o valor de bx é: ", bx)
+
+print("o valor de  by é: ", by)
+
+print("o valor de cy é", cy, "e o valor de cx é", cx)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+""" cy = by - (t*Math.cos(AOC))
+print("o valor da posição da ponta do canhão é: ", cy)
+
+
+cx = bx - (t * math.sin(AOC))
+print("o valor da posição da ponta do canhão é: ", cx) """
+
+
