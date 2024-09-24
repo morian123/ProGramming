@@ -2,11 +2,37 @@
 
 time = input("time:")
 
-print ("o", nome, "torce para o time", time)
+print ("o", nome, "torce para o time", time)"""
 
 
 
 
+#desafio1
+"""
+raio = float(input("digite o valor do raio aki meu nobre"))
+
+Pi = 3.14159
+
+A = Pi * (raio**2)
+
+print(f"o valor da area é:", A) """
+
+
+#desafio 2
+"""
+x = int(input("digite o valor de X"))
+y = int(input("digite o valor de y"))
+
+if x > y:
+    print("o valor de x é:", x, "sendo ele maior que y que é", y)
+else: 
+    print("o valor de y é", y, "sendo ele maior que x, tendo o valor de", x)
+"""
+
+
+
+#desafio3
+"""
 A, B, C = input("escreva o valor de A, B e C:").split()
 
 A = float(A)
@@ -33,7 +59,7 @@ print("x2 é =", x2)
 
 
 
-
+#desafio 4
 """ x_alvo, y_alvo, raio_alvo = input("digite os valores do alvo X, Y e seu raio: ").split()
 x_alvo = float(x_alvo)
 y_alvo = float(y_alvo)
@@ -63,40 +89,19 @@ else:
   print("a distancia do alvo ao tiro foi: ", distancia)
 """
 
-  
 
+#tentativa
 """ 
 if distancia <= (raio_alvo + raio_tiro):
   print("o tiro teve a colisao")
 else:
   print("o tiro nao teve a colisao pois o") """
+#acabou a tentativa
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#desafio final
+"""
 import math
 
 
@@ -135,33 +140,31 @@ print("o valor de bx é: ", bx)
 print("o valor de  by é: ", by)
 
 print("o valor de cy é", cy, "e o valor de cx é", cx)
+"""
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#tentativa
 """ cy = by - (t*Math.cos(AOC))
 print("o valor da posição da ponta do canhão é: ", cy)
 
 
 cx = bx - (t * math.sin(AOC))
-print("o valor da posição da ponta do canhão é: ", cx) """
+print("o valor da posição da ponta do canhão é: ", cx) 
+"""
+#acabou a tentativa
 
 
+
+
+
+""" 
+tava querendo brincar um puco
+
+p = float(input("digite seu peso: "))
+
+t = float(input("digite seu tamanho: "))
+
+IMC = p/(t**2)
+
+print("o valos do seu IMC é: ", IMC) """
